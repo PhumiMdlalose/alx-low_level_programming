@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - main block
- *Description:  This program will assign a random number to the variable n each time it is executed.
+ *Description: Get a random number and get the last digit, compare it with 5
  *Return: 0
  */
 int main(void)
