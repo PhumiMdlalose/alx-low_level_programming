@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time>
+#include <time.h>
 /**
  * main - block
  * Description: A program that prints all
@@ -15,8 +15,8 @@ int main(void)
 	while (c <= '9')
 	{
 		putchar(c);
-	}	
 		c++;
+	}
 	putchar('\n');
 	return (0);
 }
