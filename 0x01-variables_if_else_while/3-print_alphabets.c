@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: print the alphebet in lowercase
@@ -13,14 +12,14 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
-		c++
+		c++;
 	}
 	c = 'A';
 
 	while (c <= 'Z')
 	{
 		putchar(c);
-		c++
+		c++;
 	}
 	putchar('\n');
 	return (0);
