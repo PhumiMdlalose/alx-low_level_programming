@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main - prints all possible cominations of
  *single digit numbers
@@ -8,13 +9,17 @@ int main(void)
 {
 	int n;
 
-	for (n = 48; n < 58; n++)
+	while (n < 10)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(48 + n);
+		if (n != 9)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
+		c++;
 	}
+
+	putchar('\n');
+	return (0);
 }
