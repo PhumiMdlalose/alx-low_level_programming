@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Program that prints the alphabet in lowercase,
- * followed by a new line
+ * Description: Program that prints the alphabet in
+ * lowercase, followed by a new line
  * Return: 0
  */
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
