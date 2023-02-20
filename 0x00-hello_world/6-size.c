@@ -5,12 +5,6 @@
  * Return: 0
 */
 int main(void)
-{
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
 
 	printf("Size of a char: 1%lu byte(S)\n", (unsigned long)size of(a));
 	printf("Size of a int: 1%lu byte(S)\n", (unsigned long)size of(b));
