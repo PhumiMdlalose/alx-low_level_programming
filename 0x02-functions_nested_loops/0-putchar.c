@@ -1,9 +1,10 @@
-#include <stdio.>
+#include "main"
 /**
- * main - prints _putchar followed by a new line
- * Code written by Phumi
+ * main - print _putchar
+ * code written by Phumi
  * Return: 0
  */
+
 int main(void)
 {
 _putchar('_');
