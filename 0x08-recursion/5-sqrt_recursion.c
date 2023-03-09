@@ -7,7 +7,7 @@
  * Return: square root or -1
  */
 
-int power _operation(int n, int c)
+int power_operation(int n, int c)
 {
 	if (c % (n / c) == 0)
 	{
