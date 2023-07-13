@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -S $CFILE.asm
+gcc -m32 -c $CFILE.asm
