@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/*
- * main: Write a C program that prints, using puts function
+/**
+ * main - Write a C program that prints, using puts function
  * Followed by a new line
+ * Return: 0
  */
 
 int main(void)
