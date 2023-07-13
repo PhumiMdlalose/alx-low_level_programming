@@ -1,2 +1,12 @@
 #include <stdio.h>
-puts("Programming is like building a multilingual puzzle");
+
+/*
+ * main: Write a C program that prints, using puts function
+ * Followed by a new line
+ */
+
+int main(void)
+{
+	puts("Progrimming is like building a multilingual puzzle");
+	return (0);
+}
