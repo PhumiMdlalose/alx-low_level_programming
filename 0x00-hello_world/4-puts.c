@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	puts(""Progrimming is like building a multilingual puzzle");
+	puts("\"Progrimming is like building a multilingual puzzle");
 	return (0);
 }
