@@ -1,4 +1,5 @@
 #include "main.h"
+
 #include <stdio.h>
 
 /**
@@ -9,6 +10,7 @@
 
 void print_to_98(int n)
 {
+	int num;
 	if (n <= 98)
 	{
 		for (int num = n; num <= 98; num++)
