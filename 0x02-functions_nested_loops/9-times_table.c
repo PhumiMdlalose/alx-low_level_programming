@@ -17,7 +17,7 @@ void times_table(void)
 		dig_1 = ((sum / 10) + '0');
 		dig_2 = ((sum % 10) + '0');
 
-		if (sum <= 9)
+		if (sum >= 0 || sum <= 9)
 		{
 			_putchar(' ');
 			_putchar(dig_2);
