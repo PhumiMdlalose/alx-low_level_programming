@@ -10,7 +10,8 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		for (n = 0; n <= 9; n++)
+		for (n = 0; n <= row; n++)
+		{
 
 		sum = row * n;
 		dig_1 = ((sum / 10) + '0');
@@ -18,14 +19,18 @@ void times_table(void)
 
 		if (sum <= 9)
 		{
+			_putchar(' ');
+			_putchar(' ');
 			_putchar(dig_2);
 		}
 		else
-		{
+		{	
+			_putchar(' ')
 			_putchar(dig_1);
+			_putchar(dig_2);
 		}
 		_putchar(',');
-		_putchar(' ');
+		}
 		_putchar('\n');
 	}
 }
