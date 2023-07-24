@@ -10,7 +10,7 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		for (n = 0; n <= row; n++)
+		for (n = 0; n <= 9; n++)
 
 		sum = row * n;
 		dig_1 = ((sum / 10) + '0');
